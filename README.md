@@ -13,7 +13,7 @@ Created by S. Ditlefsen
 - Sends the logs to a LimaCharlie webhook for processing.
 
 **Download**<br>
-![Download](download_24dp_2854C5_FILL0_wght400_GRAD0_opsz24.png)
+![Download](docs/download_24dp_2854C5_FILL0_wght400_GRAD0_opsz24.png)
 [windows-security-to-limacharlie-csharp-donet.exe](https://github.com/ditlef9/windows-security-to-limacharlie-csharp-donet/raw/refs/heads/main/publish/windows-security-to-limacharlie-csharp-donet.exe)
 
 
