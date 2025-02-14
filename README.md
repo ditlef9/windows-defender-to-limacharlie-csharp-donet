@@ -1,9 +1,8 @@
-# Windows Security Logs to LimaCharlie
+![Windows Security Logs to LimaCharlie Logo](docs/windows-security-to-limacharlie-csharp-donet.png)
 
 This project collects Windows security logs (or other event logs) from your system, processes them, and sends them to LimaCharlie using a webhook. The logs are gathered from the **Application** event log (or other specified logs), with filtering for security-related events such as those logged by Windows Defender.
 
 
-![Windows Security Logs to LimaCharlie Logo](docs/windows-security-to-limacharlie-csharp-donet.png)
  [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-%3E%3D%209.0-red.svg)](#)
 
 Created by S. Ditlefsen
