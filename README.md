@@ -18,10 +18,9 @@ Created by S. Ditlefsen
 ## Index
 
 [🏠 1 How to run locally](#-1-how-to-run-locally)<br>
-[☁️ 2 Compile to .exe](#%EF%B8%8F-2-Compile to .exe)<br>
+[🖥️ 2 Compile to .exe](#%EF%B8%8F-2-Compile to .exe)<br>
 [🛠️ 3 How I created the app](#%EF%B8%8F-4-how-i-created-the-app)<br>
-[👨🏻‍🏫 4 Application presentation](#-5-application-presentation)<br>
-[📜 5 License](#-6-license)<br>
+[📜 4 License](#-6-license)<br>
 
 ---
 
@@ -65,7 +64,7 @@ These settings will be stored in a `config.json` file for later use.
 
 ---
 
-## ☁️ 2 Compile to .exe
+## 🖥️ 2 Compile to .exe
 
 To compile the application into a standalone `.exe` file, follow these steps:
 
