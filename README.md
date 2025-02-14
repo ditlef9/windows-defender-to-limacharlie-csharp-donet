@@ -12,6 +12,9 @@ Created by S. Ditlefsen
 - Converts the logs to JSON format.
 - Sends the logs to a LimaCharlie webhook for processing.
 
+**Download**<br>
+[windows-security-to-limacharlie-csharp-donet.exe](publish/windows-security-to-limacharlie-csharp-donet.exe)
+
 
 ---
 
@@ -71,13 +74,13 @@ To compile the application into a standalone `.exe` file, follow these steps:
 1. **Build the Application**: Open a terminal or command prompt in the project directory and run the following command:
 
     ```bash
-    dotnet build --configuration Release
+    dotnet build windows-security-to-limacharlie-csharp-donet-.sln --configuration Release
     ```
 
 2. **Publish the Application**: To generate the `.exe` file, run the `dotnet publish` command with the appropriate runtime for Windows. This will create an executable file ready to run without needing the .NET SDK installed on the target machine:
 
     ```bash
-    dotnet publish --configuration Release --runtime win-x64 --output ./publish
+    dotnet publish windows-security-to-limacharlie-csharp-donet-.sln --configuration Release --runtime win-x64 --output ./publish
     ```
 
 3. **Locate the .exe File**: After the build process completes, you will find the compiled `.exe` file in the `./publish` directory within your project folder. The file will be named after your project (e.g., `WindowsSecurityToLimaCharlie.exe`).
