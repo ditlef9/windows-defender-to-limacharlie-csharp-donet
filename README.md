@@ -15,9 +15,16 @@ Created by S. Ditlefsen
 **Download**<br>
 ![Download](docs/download_24dp_2854C5_FILL0_wght400_GRAD0_opsz24.png)
 [windows-security-to-limacharlie-csharp-donet.exe](https://github.com/ditlef9/windows-security-to-limacharlie-csharp-donet/raw/refs/heads/main/publish/windows-security-to-limacharlie-csharp-donet.exe)
-· Licensed under 
-[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0).
+(Licensed under 
+[Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0))
 
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR
+OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
+ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR
+OTHER DEALINGS IN THE SOFTWARE.
 
 ---
 
