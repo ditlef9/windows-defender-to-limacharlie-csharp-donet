@@ -27,7 +27,7 @@ class Program
             ProcessStartInfo psi = new ProcessStartInfo
             {
                 FileName = "powershell",
-                Arguments = "-Command \"Get-WinEvent -LogName Application | Where-Object {$_.ProviderName -like 'Microsoft-Windows-Security-Auditing'} -MaxEvents 10 | ConvertTo-Json -Depth 3\"",
+                Arguments = "-Command \"Get-WinEvent -LogName 'Microsoft-Windows-Windows Defender/Operational' -MaxEvents 10 | ConvertTo-Json -Depth 3\"",
                 RedirectStandardOutput = true,
                 UseShellExecute = false,
                 CreateNoWindow = true
@@ -47,7 +47,7 @@ class Program
                     var jsonObject = JsonConvert.DeserializeObject(jsonData);
 
                     // If deserialization succeeds, it's JSON
-                    Console.WriteLine("Program·SendApplicationLogs()· Logs successfully sent to LimaCharlie.");
+                    Console.WriteLine("Program·SendApplicationLogs()· Deserialization success.");
                 }
                 catch (JsonException)
                 {
