@@ -55,7 +55,7 @@ OTHER DEALINGS IN THE SOFTWARE.
    ```
 **2. Install dependencies (if any):**
    ```bash
-   dotnet restore
+   dotnet restore windows-defender-to-limacharlie-csharp-donet.sln
    
    ```
 
@@ -87,13 +87,13 @@ To compile the application into a standalone `.exe` file, follow these steps:
 1. **Build the Application**: Open a terminal or command prompt in the project directory and run the following command:
 
     ```bash
-    dotnet build windows-defender-to-limacharlie-csharp-donet-.sln --configuration Release
+    dotnet build windows-defender-to-limacharlie-csharp-donet.sln --configuration Release
     ```
 
 2. **Publish the Application**: To generate the `.exe` file, run the `dotnet publish` command with the appropriate runtime for Windows. This will create an executable file ready to run without needing the .NET SDK installed on the target machine:
 
     ```bash
-    dotnet publish windows-defender-to-limacharlie-csharp-donet-.sln --configuration Release --runtime win-x64 --output ./publish
+    dotnet publish windows-defender-to-limacharlie-csharp-donet.sln --configuration Release --runtime win-x64 --output ./publish
     ```
 
 3. **Locate the .exe File**: After the build process completes, you will find the compiled `.exe` file in the `./publish` directory within your project folder. The file will be named after your project (e.g., `WindowsDefenderToLimaCharlie.exe`).
