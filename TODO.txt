@@ -1,0 +1,4 @@
+Scheduler
+How to install on Intune
+How to install on GCP Workspace
+Howto trigger with eicar

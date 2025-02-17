@@ -1,5 +1,6 @@
 // WinSecurityLogs/LogStorage.cs
 
+namespace WinSecurityLogs;
 using Newtonsoft.Json;
 
 /// <summary>

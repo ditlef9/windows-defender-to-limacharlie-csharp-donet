@@ -98,13 +98,13 @@ To compile the application into a standalone `.exe` file, follow these steps:
 4. **Run the Executable**: You can now run the `.exe` file directly:
 
     ```bash
-    ./publish/WindowsSecurityToLimaCharlie.exe
+    ./publish/windows-security-to-limacharlie-csharp-donet.exe
     ```
 
-Run with parameters:
-```
-WindowsSecurityToLimaCharlie.exe --orgid "yourOrgId" --hookurl "yourHookURL" --webhookname "yourWebhookName" --webhooksecret "yourWebhookSecret"
-```
+**Run with parameters:**
+    ```
+    windows-security-to-limacharlie-csharp-donet.exe --orgid "yourOrgId" --hookurl "yourHookURL" --webhookname "yourWebhookName" --webhooksecret "yourWebhookSecret"
+    ```
 
 Notes
 
