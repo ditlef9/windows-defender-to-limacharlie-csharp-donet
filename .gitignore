@@ -2,6 +2,10 @@
 NotesDoNotCommit.txt
 _tmp/
 x.json
+config.json
+secret.txt
+sentLogs.json
+
 
 # Build results
 bin/
