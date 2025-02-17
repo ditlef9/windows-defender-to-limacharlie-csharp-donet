@@ -1,6 +1,6 @@
-![Windows Security Logs to LimaCharlie Logo](docs/windows-defender-to-limacharlie-csharp-donet.png)
+![Windows Defender Logs to LimaCharlie Logo](docs/windows-defender-to-limacharlie-csharp-donet.png)
 
-This project collects Windows security logs (or other event logs) from your system, processes them, and sends them to LimaCharlie using a webhook. The logs are gathered from the **Application** event log (or other specified logs), with filtering for security-related events such as those logged by Windows Defender.
+This project collects Windows defender logs (or other event logs) from your system, processes them, and sends them to LimaCharlie using a webhook. The logs are gathered from the **Application** event log (or other specified logs), with filtering for defender-related events such as those logged by Windows Defender.
 
 
  [![.NET Framework](https://img.shields.io/badge/.NET%20Framework-%3E%3D%209.0-red.svg)](#)
@@ -14,7 +14,7 @@ Created by S. Ditlefsen
 
 **Download**<br>
 ![Download](docs/download_24dp_2854C5_FILL0_wght400_GRAD0_opsz24.png)
-[windows-security-to-limacharlie-csharp-donet.exe](https://github.com/ditlef9/windows-security-to-limacharlie-csharp-donet/raw/refs/heads/main/publish/windows-security-to-limacharlie-csharp-donet.exe)
+[windows-defender-to-limacharlie-csharp-donet.exe](https://github.com/ditlef9/windows-defender-to-limacharlie-csharp-donet/raw/refs/heads/main/publish/windows-defender-to-limacharlie-csharp-donet.exe)
 (Licensed under 
 [Apache License 2.0](https://www.apache.org/licenses/LICENSE-2.0))
 
