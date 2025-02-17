@@ -32,8 +32,11 @@ OTHER DEALINGS IN THE SOFTWARE.
 
 [🏠 1 How to run locally](#-1-how-to-run-locally)<br>
 [🖥️ 2 Compile to .exe](#%EF%B8%8F-2-compile-to-exe)<br>
-[🛠️ 3 How I created the app](#%EF%B8%8F-3-how-i-created-the-app)<br>
-[📜 4 License](#-4-license)<br>
+[🦠 3 Create a virus test file (eicar.txt)](#%EF%B8%8F-3-how-i-created-the-app)<br>
+[🔍 4 Deploy on Google Workspace](#%EF%B8%8F-3-how-i-created-the-app)<br>
+[☁️ 5 Deploy on Azure Intune](#%EF%B8%8F-3-how-i-created-the-app)<br>
+[🛠️ 6 How I created the app](#%EF%B8%8F-6-how-i-created-the-app)<br>
+[📜 7 License](#-7-license)<br>
 
 ---
 
@@ -114,6 +117,22 @@ Notes
 
 
 --- 
+
+## 🦠 3 Create a virus test file (eicar.txt)
+
+Follow the guide here under `EICAR test file to simulate malware` > `Windows`
+https://learn.microsoft.com/en-sg/defender-endpoint/validate-antimalware#windows
+
+---
+
+##🔍 4 Deploy on Google Workspace
+
+--
+
+
+## ☁️ 5 Deploy on Azure Intune
+
+---
 
 ## 🛠️ 3 How I created the app
 

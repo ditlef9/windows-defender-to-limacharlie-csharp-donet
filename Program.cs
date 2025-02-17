@@ -1,5 +1,4 @@
 ﻿// Program.cs
-
 using System;
 using System.Threading.Tasks;
 using AppConfig;
@@ -9,22 +8,25 @@ class Program
 {
     static async Task Main(string[] args)
     {
-        Console.WriteLine("Program·Main()· Init");
-
-        // Check if configuration is passed through command-line arguments
         Config config = CommandLineArgsParser.ParseCommandLineArgs(args);
 
-        // If config is still null, prompt the user for input
         if (config == null)
         {
-            config = ConfigManager.LoadConfig() ?? ConfigManager.PromptUserForConfig();
+            // Load config from file or use default values
+            config = ConfigManager.LoadConfig();
+            if (config == null)
+            {
+                // Fallback to default configuration or exit silently
+                Console.WriteLine("ERROR: Missing configuration. Exiting...");
+                return; // Silent exit if configuration is missing
+            }
         }
 
         // Create an instance of LogSender and send application logs
         LogSender logSender = new LogSender();
         await logSender.SendApplicationLogs(config);
 
-        // Finish
-        Console.WriteLine("Program·Main()· Finished");
+        // Exit gracefully without any additional output
+        Environment.Exit(0);
     }
 }
