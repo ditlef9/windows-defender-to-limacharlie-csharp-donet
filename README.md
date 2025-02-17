@@ -1,4 +1,4 @@
-![Windows Security Logs to LimaCharlie Logo](docs/windows-security-to-limacharlie-csharp-donet.png)
+![Windows Security Logs to LimaCharlie Logo](docs/windows-defender-to-limacharlie-csharp-donet.png)
 
 This project collects Windows security logs (or other event logs) from your system, processes them, and sends them to LimaCharlie using a webhook. The logs are gathered from the **Application** event log (or other specified logs), with filtering for security-related events such as those logged by Windows Defender.
 
@@ -87,26 +87,26 @@ To compile the application into a standalone `.exe` file, follow these steps:
 1. **Build the Application**: Open a terminal or command prompt in the project directory and run the following command:
 
     ```bash
-    dotnet build windows-security-to-limacharlie-csharp-donet-.sln --configuration Release
+    dotnet build windows-defender-to-limacharlie-csharp-donet-.sln --configuration Release
     ```
 
 2. **Publish the Application**: To generate the `.exe` file, run the `dotnet publish` command with the appropriate runtime for Windows. This will create an executable file ready to run without needing the .NET SDK installed on the target machine:
 
     ```bash
-    dotnet publish windows-security-to-limacharlie-csharp-donet-.sln --configuration Release --runtime win-x64 --output ./publish
+    dotnet publish windows-defender-to-limacharlie-csharp-donet-.sln --configuration Release --runtime win-x64 --output ./publish
     ```
 
-3. **Locate the .exe File**: After the build process completes, you will find the compiled `.exe` file in the `./publish` directory within your project folder. The file will be named after your project (e.g., `WindowsSecurityToLimaCharlie.exe`).
+3. **Locate the .exe File**: After the build process completes, you will find the compiled `.exe` file in the `./publish` directory within your project folder. The file will be named after your project (e.g., `WindowsDefenderToLimaCharlie.exe`).
 
 4. **Run the Executable**: You can now run the `.exe` file directly:
 
     ```bash
-    ./publish/windows-security-to-limacharlie-csharp-donet.exe
+    ./publish/windows-defender-to-limacharlie-csharp-donet.exe
     ```
 
 **Run with parameters:**
     ```
-    windows-security-to-limacharlie-csharp-donet.exe --orgid "yourOrgId" --hookurl "yourHookURL" --webhookname "yourWebhookName" --webhooksecret "yourWebhookSecret"
+    windows-defender-to-limacharlie-csharp-donet.exe --orgid "yourOrgId" --hookurl "yourHookURL" --webhookname "yourWebhookName" --webhooksecret "yourWebhookSecret"
     ```
 
 Notes
@@ -138,7 +138,7 @@ https://learn.microsoft.com/en-sg/defender-endpoint/validate-antimalware#windows
 
 New console app:
 ```
-dotnet new console -n windows-security-to-limacharlie-csharp-donet
+dotnet new console -n windows-defender-to-limacharlie-csharp-donet
 dotnet add package Newtonsoft.Json
 dotnet add package System.Diagnostics.EventLog
 

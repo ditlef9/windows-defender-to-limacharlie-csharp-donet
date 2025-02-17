@@ -3,7 +3,7 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>  <!-- WinExe gives no CMD window -->
     <TargetFramework>net9.0</TargetFramework>
-    <RootNamespace>windows_security_to_limacharlie_csharp_donet</RootNamespace>
+    <RootNamespace>windows_defender_to_limacharlie_csharp_donet</RootNamespace>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
   </PropertyGroup>
