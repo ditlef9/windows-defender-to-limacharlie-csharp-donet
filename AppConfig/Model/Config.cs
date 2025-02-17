@@ -1,5 +1,6 @@
-// WinSecurityLogs/Model/Config.cs
+// Config/Model/Config.cs
 
+namespace AppConfig;
 
 /// <summary>
 /// Stores LimaCharlie Configuration Details.

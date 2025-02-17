@@ -1,8 +1,9 @@
-// WinSecurityLogs/WinEventLogger
+// Config/ConfigManager.cs
 
 using System;
 using System.IO;
 using Newtonsoft.Json;
+namespace AppConfig;
 
 // Handles User Input & Config Storage
 

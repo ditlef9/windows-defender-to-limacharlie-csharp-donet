@@ -101,6 +101,11 @@ To compile the application into a standalone `.exe` file, follow these steps:
     ./publish/WindowsSecurityToLimaCharlie.exe
     ```
 
+Run with parameters:
+```
+WindowsSecurityToLimaCharlie.exe --orgid "yourOrgId" --hookurl "yourHookURL" --webhookname "yourWebhookName" --webhooksecret "yourWebhookSecret"
+```
+
 Notes
 
 - Ensure that all configurations (e.g., webhook URL and secret) are set up correctly before running the compiled `.exe` file. The application will look for the `config.json` file in the same directory where the `.exe` is located.

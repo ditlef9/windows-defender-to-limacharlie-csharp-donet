@@ -1,4 +1,4 @@
-// WinSecurityLogs\LogStorage.cs
+// WinSecurityLogs/LogStorage.cs
 
 using Newtonsoft.Json;
 
